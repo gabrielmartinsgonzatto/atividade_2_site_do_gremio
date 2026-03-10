@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(111, 163, 246);
+    background-color: rgb(230, 16, 16);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(7, 49, 98);
+    background-color: red;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -28,7 +28,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(94, 138, 209);
+    background-color: white;
     padding: 6px;
     margin: 40px;
     border-radius: 40px;
@@ -37,9 +37,9 @@ body {
 
 .noticia {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(255, 255, 255);
-    background-color: rgb(72, 155, 243);
-    border: 4px solid rgb(255, 255, 255);
+    color: white;
+    background-color: rgb(224, 20, 13);
+    border: 4px solid white;
 }
 
 .img_noticia {
@@ -47,8 +47,27 @@ body {
     height: 200px;
 }
 
+.escalacao2{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 40px;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 40px;
+     background-color: white;
+     
+}
+
+.escalacao{
+    width: 75px;
+    height: 75px;
+}
+
+
+
+
 footer {
-    background-color: rgb(7, 49, 98);
+    background-color: rgb(192, 15, 15);
     padding: 10px;
     text-align: center;
     color: white;
@@ -75,18 +94,18 @@ footer {
     position: sticky;
     top: 0px;
     background-color: yellow;
-    color:black
+    color:black;
     padding: 12px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 4px solid rgb(7, 49, 98);
+    border-bottom: 4px solid rgb(255, 255, 255);
 }
 
 .posicao{
     margin: 40px;
     padding: 20px;
     border-radius: 40px;
-    background-color: rgb(94, 138, 209);
+    background-color: white;
     text-align: center;
     color: white;
 }
@@ -96,7 +115,7 @@ footer {
     margin: 20px auto;
     padding: 15px;
     border: 4px solid white;
-    background-color: rgb(72, 155, 243);
+    background-color: rgb(221, 18, 18);
     color: white;
 }
 
@@ -111,7 +130,7 @@ footer {
     top: 20px;
     left: 30px;
     background-color: rgb(255, 221, 0);
-    color: rgb(7, 49, 98);
+    color: white;
 }
 
 .pai{
@@ -121,7 +140,7 @@ footer {
     padding: 20px;
     border-radius: 20px;
     border: 4px solid white;
-    background-color: rgb(72, 155, 243);
+    background-color: rgb(226, 46, 15);
     position: relative;
     color: white;
     font-weight: bold;
@@ -133,7 +152,35 @@ footer {
     bottom: 15px;
     padding: 8px 12px;
     background-color: yellow;
-    color: rgb(7, 49, 98);
-    border: 3px solid rgb(7, 49, 98);
+    color: rgb(240, 12, 12);
+    border: 3px solid rgb(223, 13, 13);
     border-radius: 20px;
 }
+
+.info-canto{
+    position:fixed;
+    bottom:15px;
+    right:20px;
+    background:#000;
+    color:#fff;
+    padding:7px 10px;
+    border-radius:16px;
+    z-index:999;
+    height: 50px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff;
+    font-size:22px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.info-canto:hover{
+transform:scale(1.08);
+}
+
+
