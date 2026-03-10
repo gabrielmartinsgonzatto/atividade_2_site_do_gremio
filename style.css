@@ -174,9 +174,6 @@ footer {
     font-size:22px;
     text-decoration: none;
     user-select: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
 }
 
 .info-canto:hover{
